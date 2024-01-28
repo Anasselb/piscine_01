@@ -65,7 +65,7 @@ func fourcombs() {
 						z01.PrintRune(t)
 						z01.PrintRune(v)
 
-						if i != 6 {
+						if i != '9' {
 							z01.PrintRune(',')
 							z01.PrintRune(' ')
 						}
@@ -80,27 +80,7 @@ func fourcombs() {
 }
 
 func fivecombs() {
-	for i := '0'; i < '6'; i++ {
-		for j := i + 1; j < '7'; j++ {
-			for k := j + 1; k < '8'; k++ {
-				for l := k + 1; l < '9'; l++ {
-					for x := l + 1; x <= '9'; x++ {
-						z01.PrintRune(i)
-						z01.PrintRune(j)
-						z01.PrintRune(k)
-						z01.PrintRune(l)
-						z01.PrintRune(x)
-						if i != '5' {
-							z01.PrintRune(',')
-						}
-					}
 
-				}
-			}
-
-		}
-	}
-	z01.PrintRune('\n')
 }
 
 func sixcombs() {
